@@ -8,6 +8,13 @@ Two files here...
 1. ts.json  = Splunk Telemery configuration file
 2. as3logging = AS3 declarative configuration to configure the logging profiles
 
+## Edit the ts.json 
+Edit the following file to match what you have setup in your lab
+- cipherText
+- host IP
+Note: I Turned off allowselfsignedcert = true because this is for my lab envrionment
+
+
 Also..for System Logging [If you haven't done this in you DO.JSON ]
 Modify the system syslog configuration by adding a destination, using the following TMSH command:
 
